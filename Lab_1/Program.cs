@@ -42,8 +42,37 @@ namespace Lab_1
 
                     break;
                     case 3:
+
+                    static int searchIndex(int[] array, int value)
+                    {
+                        decimal index = 0;
+                        decimal limit = array.Length;
                         
-                        break;
+                        while (index <= limit)
+                        {
+                            int point = (int)Math.Ceiling((index + limit / 2));                           
+                            int entry = array[point];
+                            if (value > entry)
+                            {                               
+                                index = point + 1;
+                            }
+                            if (value < entry)
+                            {
+                                limit = point - 1;
+                            }
+                            return point;
+                        }
+                        return -1;
+                    }
+
+                    
+                    
+                    int[] array = new int[] { 4, 5, 7, 11, 12, 15, 15, 21, 40, 45 };
+                    int index = searchIndex(array, 11); 
+
+                    Console.WriteLine(index);
+
+                    break;
                     case 4:
                         
                         break;
