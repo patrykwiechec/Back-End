@@ -1,11 +1,19 @@
+using Microsoft.EntityFrameworkCore;
+using Turniej.Context;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddControllersWithViews();
+
+//DI
+builder.Services.AddDbContext<TurniejContext>(options =>
+options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection")));
 
 
 var app = builder.Build();
 
-builder.Services.AddDbContext<>
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
