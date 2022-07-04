@@ -1,0 +1,36 @@
+﻿@model Turniej.Models.Trenerzy
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Trenerzy</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ImieT)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ImieT)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NazwiskoT)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NazwiskoT)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.IleMedaliT)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.IleMedaliT)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.IdTrenera">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
