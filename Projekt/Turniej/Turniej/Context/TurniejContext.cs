@@ -16,11 +16,12 @@ namespace Turniej.Context
             : base(options)
         {
         }
-
+        
         public virtual DbSet<Trenerzy> Trenerzies { get; set; } = null!;
         public virtual DbSet<Uczestnictwo> Uczestnictwos { get; set; } = null!;
         public virtual DbSet<Zawodnicy> Zawodnicies { get; set; } = null!;
         public virtual DbSet<Zawody> Zawodies { get; set; } = null!;
+
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
