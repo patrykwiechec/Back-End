@@ -1,14 +1,11 @@
 ﻿@model IEnumerable<Turniej.Models.Uczestnictwo>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Uczestnictwo";
 }
 
 <h1>Index</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
 <table class="table">
     <thead>
         <tr>
@@ -31,9 +28,10 @@
                 @Html.DisplayFor(modelItem => item.IdZawodowNavigation.IdZawodow)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.IdUczestnictwa">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.IdUczestnictwa">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.IdUczestnictwa">Delete</a>
+                <a asp-action="Create"> <i class="fa-solid fa-square-plus"></i> </a> |
+                <a asp-action="Edit" asp-route-id="@item.IdUczestnictwa"><i class="fa-solid fa-pen-to-square"></i></a> |
+                <a asp-action="Details" asp-route-id="@item.IdUczestnictwa"><i class="fa-solid fa-circle-info"></i></a> |
+                <a asp-action="Delete" asp-route-id="@item.IdUczestnictwa"><i class="fa-solid fa-ban"></i></a>
             </td>
         </tr>
 }
