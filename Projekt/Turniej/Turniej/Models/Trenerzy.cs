@@ -11,8 +11,8 @@ namespace Turniej.Models
         {
             Zawodnicies = new HashSet<Zawodnicy>();
         }
-       
-        
+
+        [DisplayName("ID trenera")]
         public int IdTrenera { get; set; }
         [DisplayName("Imię trenera")]
         [Required]
@@ -22,7 +22,7 @@ namespace Turniej.Models
         public string NazwiskoT { get; set; } = null!;
         [DisplayName("Ilość Medali")]
         [Required]
-        public int IleMedaliT { get; set; }
+        public int IleMedaliT { get; set;}
 
         public virtual ICollection<Zawodnicy> Zawodnicies { get; set; }
     }

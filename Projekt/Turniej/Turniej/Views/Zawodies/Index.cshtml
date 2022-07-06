@@ -4,12 +4,15 @@
     ViewData["Title"] = "Zawody";
 }
 
-<h1>Index</h1>
+<h1>Zawody</h1>
 
 
 <table class="table">
     <thead>
         <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.IdZawodow)
+            </th>
             <th>
                 @Html.DisplayNameFor(model => model.Nazwa)
             </th>
@@ -22,6 +25,9 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdZawodow)
+            </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Nazwa)
             </td>
@@ -38,3 +44,4 @@
 }
     </tbody>
 </table>
+<img class="sportimg" alt="Sport" src="~/sport.png" />

@@ -10,6 +10,9 @@
     <thead>
         <tr>
             <th>
+                @Html.DisplayNameFor(model => model.IdTrenera)
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.ImieT)
             </th>
             <th>
@@ -24,6 +27,9 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdTrenera)
+            </td>
             <td>
                 @Html.DisplayFor(modelItem => item.ImieT)
             </td>
@@ -43,3 +49,5 @@
 }
     </tbody>
 </table>
+
+<img class="sportimg" alt="Sport" src="~/sport.png" />
