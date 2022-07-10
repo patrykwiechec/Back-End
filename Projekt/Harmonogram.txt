@@ -1,0 +1,14 @@
+1. Konfiguracja Visual Studio.
+2. Konfiguracja SMSS.
+3. Utworzenie bazy danych.
+4. Utworzenie tabel i relacji.
+5. Wypełnienie tabel przykładowymi danymi.
+6. Instalacja pakietów Nuget w projekcie.
+7. Utworzenie modeli z pomocą EntityFramework.
+8. Połączenie z bazą danych.
+9. Utworzenie kontrolerów dla poszczególnych tablic.
+10. Utworzenie skryptu zarządzającego stanem aplikacji.
+11. Zmiana strony głównej oraz polityki.
+12. Edycja strony (front-end).
+13. Komentarz kodu.
+14. Utworzenie opisu aplikacji.
