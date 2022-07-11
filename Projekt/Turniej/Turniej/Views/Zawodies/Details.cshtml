@@ -22,10 +22,17 @@
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Lokalizacja)
         </dd>
+        <dt class = "col-sm-10">
+            Obiekt
+        </dt>
+        <dt class = "col-sm-10">
+            Liczba miejsc
+        </dt>
     </dl>
 </div>
 <div>
     <a asp-action="Edit" asp-route-id="@Model?.IdZawodow">Edytuj</a> |
-    <a asp-action="Index">Wróć</a>
+    <a asp-action="Index">Wróć</a>|
+    <a asp-action="Obiekt" asp-route-id="@Model?.IdZawodow">  Informacje o obiekcie </a> |
 </div>
 <img class="sportimg" alt="Sport" src="~/sport.png" />

@@ -45,6 +45,16 @@ namespace Turniej.Controllers
             return View(zawody);
         }
 
+        public async Task<string> Obiekt(int? id)
+        {
+            var zawody = await _context.Zawodies
+                .FirstOrDefaultAsync(m => m.IdZawodow == id);
+
+            return zawody.Lokalizacja;
+
+        }
+    
+
         // GET: Zawodies/Create
         public IActionResult Create()
         {
