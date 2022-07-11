@@ -1,17 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Obiekty.Models;
+using Obiekty.model;
 using System.Diagnostics;
 
 namespace Obiekty.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
 
         public IActionResult Index()
         {

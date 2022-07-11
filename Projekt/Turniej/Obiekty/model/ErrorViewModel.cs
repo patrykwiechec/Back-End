@@ -1,4 +1,4 @@
-namespace Obiekty.Models
+namespace Obiekty.model
 {
     public class ErrorViewModel
     {

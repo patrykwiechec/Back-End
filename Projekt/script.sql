@@ -74,12 +74,15 @@ USE Obiekty;
 Create table obiekt(
 	IdObiekt int IDENTITY(1,1) PRIMARY KEY,
 	lokalizacja varchar(30) not null,
-	Nazwa varchar(50) not null
+	Nazwa varchar(50) not null,
+	Ilosc_miejsc int not null,
+	Cena_biletu int not null,
+	Cena_biletu_vip int not null
 )
 
 Insert into obiekt VALUES
-('Kraków','Stadion Miejski im. Henryka Reymana'),
-('Warszawa','PGE Narodowy'),
-('Zakopane','Stadion lekkoatletyczny COS Zakopane'),
-('Wrocław','Tarczyński Arena'),
-('Opole','Stadion Miejski OKS Odra Opole')
+('Kraków','Stadion Miejski im. Henryka Reymana',7000,40,80),
+('Warszawa','PGE Narodowy',30000,80,140),
+('Zakopane','Stadion lekkoatletyczny COS Zakopane',5000,50,75),
+('Wrocław','Tarczyński Arena', 9000, 60, 90),
+('Opole','Stadion Miejski OKS Odra Opole', 3000, 30, 60)
