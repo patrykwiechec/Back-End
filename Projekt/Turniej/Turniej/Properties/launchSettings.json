@@ -24,6 +24,16 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
+    "WSL": {
+      "commandName": "WSL2",
+      "launchBrowser": true,
+      "launchUrl": "http://localhost:49466",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_URLS": "http://localhost:49466"
+      },
+      "distributionName": ""
+    },
     "Docker": {
       "commandName": "Docker",
       "launchBrowser": true,

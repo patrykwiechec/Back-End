@@ -1,5 +1,5 @@
 Create database Turniej;
-
+GO
 USE Turniej
 GO
 /****** Object:  Table [dbo].[trenerzy]    Script Date: 07.07.2022 18:50:42 ******/
@@ -64,3 +64,22 @@ INSERT INTO uczestnictwo VALUES
 (3,1),
 (2,3),
 (1,2)
+
+Create database Obiekty;
+
+GO
+
+USE Obiekty;
+
+Create table obiekt(
+	IdObiekt int IDENTITY(1,1) PRIMARY KEY,
+	lokalizacja varchar(30) not null,
+	Nazwa varchar(50) not null
+)
+
+Insert into obiekt VALUES
+('Kraków','Stadion Miejski im. Henryka Reymana'),
+('Warszawa','PGE Narodowy'),
+('Zakopane','Stadion lekkoatletyczny COS Zakopane'),
+('Wrocław','Tarczyński Arena'),
+('Opole','Stadion Miejski OKS Odra Opole')
