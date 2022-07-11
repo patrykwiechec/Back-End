@@ -19,16 +19,44 @@ namespace ObiektySportowe.Controllers
         }
 
         // GET: Obiekts
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string message)
         {
-              return _context.Obiekts != null ? 
-                          View(await _context.Obiekts.ToListAsync()) :
+            using (System.Net.Http.HttpClient client = new HttpClient())
+            {
+                var response = await client.GetAsync("http://localhost:4300/Zawodies/Obiekt/7");
+                response.EnsureSuccessStatusCode();
+                if (response.IsSuccessStatusCode)
+                {
+                    message = await response.Content.ReadAsStringAsync();
+                }
+                else
+                {
+                    Console.WriteLine("Error!");
+                }
+            }
+
+            return _context.Obiekts != null ? 
+                          View(await _context.Obiekts.Where(c => c.Lokalizacja == message).ToListAsync()) :
                           Problem("Entity set 'ObiektyContext.Obiekts'  is null.");
         }
 
         // GET: Obiekts/Details/5
         public async Task<IActionResult> Details(int? id)
         {
+            using(System.Net.Http.HttpClient client = new HttpClient())
+            {
+                var response = await client.GetAsync("http://localhost:4300/Zawodies/Obiekt/7");
+                response.EnsureSuccessStatusCode();
+                if (response.IsSuccessStatusCode)
+                {
+                    string message = await response.Content.ReadAsStringAsync();
+                    Console.WriteLine(message);
+                }
+                else
+                {
+                    Console.WriteLine("Error!");
+                }
+            }
             if (id == null || _context.Obiekts == null)
             {
                 return NotFound();

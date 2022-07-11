@@ -50,7 +50,9 @@ namespace Turniej.Controllers
             var zawody = await _context.Zawodies
                 .FirstOrDefaultAsync(m => m.IdZawodow == id);
 
-            return zawody.Lokalizacja;
+            string s = zawody.Lokalizacja;
+
+            return s;
 
         }
     
