@@ -19,6 +19,6 @@ function CheckIdleTime() {
         document.getElementById('time').innerHTML = "00:0" + (max_czas_sesji - _bezczynnosc);
     if (_bezczynnosc >= max_czas_sesji) {
         alert("Zbyt długo byłeś nieaktywny! Powrót na stronę główną.");
-        location.href = "http://localhost:5225/";
+        location.href = "http://localhost:4300/";
     }
 }
