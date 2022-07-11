@@ -3,19 +3,18 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:5270",
+      "applicationUrl": "http://localhost:37695",
       "sslPort": 0
     }
   },
   "profiles": {
-    "Obiekty": {
+    "ObiektySportowe": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "Obiekty",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "http://localhost:5270",
+      "applicationUrl": "http://localhost:5170",
       "dotnetRunMessages": true
     },
     "IIS Express": {
@@ -28,9 +27,8 @@
     "Docker": {
       "commandName": "Docker",
       "launchBrowser": true,
-      "launchUrl": "{Scheme}://{ServiceHost}:5270",
-      "publishAllPorts": true,
-      "useSSL": true
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "publishAllPorts": true
     }
   }
 }
