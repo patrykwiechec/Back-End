@@ -10231,6 +10231,7 @@
       "EntityFramework >= 6.4.4",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 6.0.6",
       "Microsoft.EntityFrameworkCore >= 6.0.6",
+      "Microsoft.EntityFrameworkCore.Design >= 6.0.6",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.6",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.6",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.14.0",
@@ -10290,6 +10291,12 @@
             "version": "[6.0.6, )"
           },
           "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[6.0.6, )"
+          },
+          "Microsoft.EntityFrameworkCore.Design": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
             "target": "Package",
             "version": "[6.0.6, )"
           },
