@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ObiektySportowe.Models;
+using System.Net.Http.Json;
 
 namespace ObiektySportowe.Controllers
 {
@@ -21,18 +23,31 @@ namespace ObiektySportowe.Controllers
         // GET: Obiekts
         public async Task<IActionResult> Index(string message)
         {
-            using (System.Net.Http.HttpClient client = new HttpClient())
+
+            using (HttpClient client = new HttpClient())
             {
-                var response = await client.GetAsync("http://localhost:4300/Zawodies/Obiekt/7");
-                response.EnsureSuccessStatusCode();
-                if (response.IsSuccessStatusCode)
+                client.DefaultRequestHeaders.Clear();
+
+                try
                 {
-                    message = await response.Content.ReadAsStringAsync();
+                    for (int i = 1; i < 10000; i++)
+                  {
+                        string x = "http://localhost:4300/Zawodies/Obiekt/"+i.ToString();
+                        var response = await client.GetAsync(x);
+                        if (response.IsSuccessStatusCode)
+                        {
+                            message = await response.Content.ReadAsStringAsync();
+                            break;
+                        }
+                        
+                    }
                 }
-                else
+                finally
                 {
-                    Console.WriteLine("Error!");
+                   client.Dispose();
                 }
+                
+               
             }
 
             return _context.Obiekts != null ? 
@@ -43,20 +58,7 @@ namespace ObiektySportowe.Controllers
         // GET: Obiekts/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            using(System.Net.Http.HttpClient client = new HttpClient())
-            {
-                var response = await client.GetAsync("http://localhost:4300/Zawodies/Obiekt/7");
-                response.EnsureSuccessStatusCode();
-                if (response.IsSuccessStatusCode)
-                {
-                    string message = await response.Content.ReadAsStringAsync();
-                    Console.WriteLine(message);
-                }
-                else
-                {
-                    Console.WriteLine("Error!");
-                }
-            }
+          
             if (id == null || _context.Obiekts == null)
             {
                 return NotFound();

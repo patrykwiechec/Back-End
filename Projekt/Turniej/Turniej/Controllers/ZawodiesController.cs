@@ -22,9 +22,9 @@ namespace Turniej.Controllers
         // GET: Zawodies
         public async Task<IActionResult> Index()
         {
-              return _context.Zawodies != null ? 
-                          View(await _context.Zawodies.ToListAsync()) :
-                          Problem("Entity set 'TurniejContext.Zawodies'  is null.");
+            return _context.Zawodies != null ?
+                        View(await _context.Zawodies.ToListAsync()) :
+                        Problem("Entity set 'TurniejContext.Zawodies'  is null.");
         }
 
         // GET: Zawodies/Details/5
@@ -45,14 +45,14 @@ namespace Turniej.Controllers
             return View(zawody);
         }
 
+        [HttpGet]
         public async Task<string> Obiekt(int? id)
         {
             var zawody = await _context.Zawodies
                 .FirstOrDefaultAsync(m => m.IdZawodow == id);
 
-            string s = zawody.Lokalizacja;
 
-            return s;
+            return zawody.Lokalizacja; ;
 
         }
     
