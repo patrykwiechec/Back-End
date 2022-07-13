@@ -8,117 +8,117 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Turniej
 build_property.RootNamespace = Turniej
-build_property.ProjectDir = C:\Users\Pato\source\repos\Praca_Back_end\Projekt\Turniej\Turniej\
+build_property.ProjectDir = C:\Users\Pato\Source\Repos\patrykwiechec\Back-end-xxx\Projekt\Turniej\Turniej\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Pato\source\repos\Praca_Back_end\Projekt\Turniej\Turniej
+build_property.MSBuildProjectDirectory = C:\Users\Pato\Source\Repos\patrykwiechec\Back-end-xxx\Projekt\Turniej\Turniej
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Pato/source/repos/Praca_Back_end/Projekt/Turniej/Turniej/Views/Home/Index.cshtml]
+[C:/Users/Pato/Source/Repos/patrykwiechec/Back-end-xxx/Projekt/Turniej/Turniej/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pato/source/repos/Praca_Back_end/Projekt/Turniej/Turniej/Views/Home/Privacy.cshtml]
+[C:/Users/Pato/Source/Repos/patrykwiechec/Back-end-xxx/Projekt/Turniej/Turniej/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pato/source/repos/Praca_Back_end/Projekt/Turniej/Turniej/Views/Shared/Error.cshtml]
+[C:/Users/Pato/Source/Repos/patrykwiechec/Back-end-xxx/Projekt/Turniej/Turniej/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pato/source/repos/Praca_Back_end/Projekt/Turniej/Turniej/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Pato/Source/Repos/patrykwiechec/Back-end-xxx/Projekt/Turniej/Turniej/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pato/source/repos/Praca_Back_end/Projekt/Turniej/Turniej/Views/Trenerzies/Create.cshtml]
+[C:/Users/Pato/Source/Repos/patrykwiechec/Back-end-xxx/Projekt/Turniej/Turniej/Views/Trenerzies/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJlbmVyemllc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pato/source/repos/Praca_Back_end/Projekt/Turniej/Turniej/Views/Trenerzies/Delete.cshtml]
+[C:/Users/Pato/Source/Repos/patrykwiechec/Back-end-xxx/Projekt/Turniej/Turniej/Views/Trenerzies/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJlbmVyemllc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pato/source/repos/Praca_Back_end/Projekt/Turniej/Turniej/Views/Trenerzies/Details.cshtml]
+[C:/Users/Pato/Source/Repos/patrykwiechec/Back-end-xxx/Projekt/Turniej/Turniej/Views/Trenerzies/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJlbmVyemllc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pato/source/repos/Praca_Back_end/Projekt/Turniej/Turniej/Views/Trenerzies/Edit.cshtml]
+[C:/Users/Pato/Source/Repos/patrykwiechec/Back-end-xxx/Projekt/Turniej/Turniej/Views/Trenerzies/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJlbmVyemllc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pato/source/repos/Praca_Back_end/Projekt/Turniej/Turniej/Views/Trenerzies/Index.cshtml]
+[C:/Users/Pato/Source/Repos/patrykwiechec/Back-end-xxx/Projekt/Turniej/Turniej/Views/Trenerzies/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJlbmVyemllc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pato/source/repos/Praca_Back_end/Projekt/Turniej/Turniej/Views/Uczestnictwoes/Create.cshtml]
+[C:/Users/Pato/Source/Repos/patrykwiechec/Back-end-xxx/Projekt/Turniej/Turniej/Views/Uczestnictwoes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVWN6ZXN0bmljdHdvZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pato/source/repos/Praca_Back_end/Projekt/Turniej/Turniej/Views/Uczestnictwoes/Delete.cshtml]
+[C:/Users/Pato/Source/Repos/patrykwiechec/Back-end-xxx/Projekt/Turniej/Turniej/Views/Uczestnictwoes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVWN6ZXN0bmljdHdvZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pato/source/repos/Praca_Back_end/Projekt/Turniej/Turniej/Views/Uczestnictwoes/Details.cshtml]
+[C:/Users/Pato/Source/Repos/patrykwiechec/Back-end-xxx/Projekt/Turniej/Turniej/Views/Uczestnictwoes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVWN6ZXN0bmljdHdvZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pato/source/repos/Praca_Back_end/Projekt/Turniej/Turniej/Views/Uczestnictwoes/Edit.cshtml]
+[C:/Users/Pato/Source/Repos/patrykwiechec/Back-end-xxx/Projekt/Turniej/Turniej/Views/Uczestnictwoes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVWN6ZXN0bmljdHdvZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pato/source/repos/Praca_Back_end/Projekt/Turniej/Turniej/Views/Uczestnictwoes/Index.cshtml]
+[C:/Users/Pato/Source/Repos/patrykwiechec/Back-end-xxx/Projekt/Turniej/Turniej/Views/Uczestnictwoes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVWN6ZXN0bmljdHdvZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pato/source/repos/Praca_Back_end/Projekt/Turniej/Turniej/Views/Zawodies/Create.cshtml]
+[C:/Users/Pato/Source/Repos/patrykwiechec/Back-end-xxx/Projekt/Turniej/Turniej/Views/Zawodies/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmF3b2RpZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pato/source/repos/Praca_Back_end/Projekt/Turniej/Turniej/Views/Zawodies/Delete.cshtml]
+[C:/Users/Pato/Source/Repos/patrykwiechec/Back-end-xxx/Projekt/Turniej/Turniej/Views/Zawodies/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmF3b2RpZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pato/source/repos/Praca_Back_end/Projekt/Turniej/Turniej/Views/Zawodies/Details.cshtml]
+[C:/Users/Pato/Source/Repos/patrykwiechec/Back-end-xxx/Projekt/Turniej/Turniej/Views/Zawodies/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmF3b2RpZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pato/source/repos/Praca_Back_end/Projekt/Turniej/Turniej/Views/Zawodies/Edit.cshtml]
+[C:/Users/Pato/Source/Repos/patrykwiechec/Back-end-xxx/Projekt/Turniej/Turniej/Views/Zawodies/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmF3b2RpZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pato/source/repos/Praca_Back_end/Projekt/Turniej/Turniej/Views/Zawodies/Index.cshtml]
+[C:/Users/Pato/Source/Repos/patrykwiechec/Back-end-xxx/Projekt/Turniej/Turniej/Views/Zawodies/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmF3b2RpZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pato/source/repos/Praca_Back_end/Projekt/Turniej/Turniej/Views/Zawodnicies/Create.cshtml]
+[C:/Users/Pato/Source/Repos/patrykwiechec/Back-end-xxx/Projekt/Turniej/Turniej/Views/Zawodnicies/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmF3b2RuaWNpZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pato/source/repos/Praca_Back_end/Projekt/Turniej/Turniej/Views/Zawodnicies/Delete.cshtml]
+[C:/Users/Pato/Source/Repos/patrykwiechec/Back-end-xxx/Projekt/Turniej/Turniej/Views/Zawodnicies/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmF3b2RuaWNpZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pato/source/repos/Praca_Back_end/Projekt/Turniej/Turniej/Views/Zawodnicies/Details.cshtml]
+[C:/Users/Pato/Source/Repos/patrykwiechec/Back-end-xxx/Projekt/Turniej/Turniej/Views/Zawodnicies/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmF3b2RuaWNpZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pato/source/repos/Praca_Back_end/Projekt/Turniej/Turniej/Views/Zawodnicies/Edit.cshtml]
+[C:/Users/Pato/Source/Repos/patrykwiechec/Back-end-xxx/Projekt/Turniej/Turniej/Views/Zawodnicies/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmF3b2RuaWNpZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pato/source/repos/Praca_Back_end/Projekt/Turniej/Turniej/Views/Zawodnicies/Index.cshtml]
+[C:/Users/Pato/Source/Repos/patrykwiechec/Back-end-xxx/Projekt/Turniej/Turniej/Views/Zawodnicies/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmF3b2RuaWNpZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pato/source/repos/Praca_Back_end/Projekt/Turniej/Turniej/Views/_ViewImports.cshtml]
+[C:/Users/Pato/Source/Repos/patrykwiechec/Back-end-xxx/Projekt/Turniej/Turniej/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pato/source/repos/Praca_Back_end/Projekt/Turniej/Turniej/Views/_ViewStart.cshtml]
+[C:/Users/Pato/Source/Repos/patrykwiechec/Back-end-xxx/Projekt/Turniej/Turniej/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pato/source/repos/Praca_Back_end/Projekt/Turniej/Turniej/Views/Shared/_Layout.cshtml]
+[C:/Users/Pato/Source/Repos/patrykwiechec/Back-end-xxx/Projekt/Turniej/Turniej/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-nydu13y40z

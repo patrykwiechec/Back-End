@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Turniej.Context;
 using Turniej.Models;
+using Microsoft.Net.Http.Headers;
+using System.Web;
 
 namespace Turniej.Controllers
 {
@@ -48,11 +50,24 @@ namespace Turniej.Controllers
         [HttpGet]
         public async Task<string> Obiekt(int? id)
         {
-            var zawody = await _context.Zawodies
+            try
+            {
+
+                var zawody = await _context.Zawodies
                 .FirstOrDefaultAsync(m => m.IdZawodow == id);
+                
+                return zawody.Lokalizacja; 
+
+            }
+            catch
+            {
+                var zawody = await _context.Zawodies
+                .FirstOrDefaultAsync(m => m.IdZawodow == id);
+                
 
 
-            return zawody.Lokalizacja; ;
+                return (zawody.Lokalizacja); 
+            }
 
         }
     

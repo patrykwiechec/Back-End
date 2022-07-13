@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zhcgCzC6WoxGkTfoD5q0hZxjKZzmwOIH3Kbiih/T7OoncnGwmh5wufrLJR1ruUn7Zzz5c5E/IVaD2YCWhatkXg==",
+  "dgSpecHash": "XKhEE4TzqFmpTR//mnBGgT8B3nRWMZO/3FAMMTlXQBiBPn74l9So+lPleUt8qNqEyPU0uHAZakU1Dun2lV7CFA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Pato\\source\\repos\\Praca_Back_end\\Projekt\\Turniej\\Turniej\\Turniej.csproj",
+  "projectFilePath": "C:\\Users\\Pato\\Source\\Repos\\patrykwiechec\\Back-end-xxx\\Projekt\\Turniej\\Turniej\\Turniej.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pato\\.nuget\\packages\\docker.dotnet\\3.125.5\\docker.dotnet.3.125.5.nupkg.sha512",
     "C:\\Users\\Pato\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",

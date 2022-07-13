@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ObiektySportowe.Models;
 using System.Net.Http.Json;
+using Microsoft.Net.Http.Headers;
+using System.Web;
 
 namespace ObiektySportowe.Controllers
 {
@@ -32,10 +34,17 @@ namespace ObiektySportowe.Controllers
                 {
                     for (int i = 1; i < 10000; i++)
                   {
+                        if (Request.Cookies["id"] != null)
+                        {
+                            var value = Request.Cookies["id"].ToString();
+                        }
+
                         string x = "http://localhost:4300/Zawodies/Obiekt/"+i.ToString();
                         var response = await client.GetAsync(x);
+                        
                         if (response.IsSuccessStatusCode)
                         {
+
                             message = await response.Content.ReadAsStringAsync();
                             break;
                         }
