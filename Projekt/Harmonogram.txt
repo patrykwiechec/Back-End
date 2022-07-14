@@ -10,5 +10,7 @@
 10. Utworzenie skryptu zarządzającego stanem aplikacji.
 11. Zmiana strony głównej oraz polityki.
 12. Edycja strony (front-end).
-13. Komentarz kodu.
-14. Utworzenie opisu aplikacji.
+13. Utworzenie mikroserwisu.
+14. Komunikacja między mikroserwisami.
+15. Komentarz kodu.
+16. Utworzenie opisu aplikacji.
